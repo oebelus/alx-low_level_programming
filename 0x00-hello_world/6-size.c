@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * Description: main - This is a function that prints the size of different types.
+ * Description: main - The size of different types.
  * Return: 0 if success.
  */
 
