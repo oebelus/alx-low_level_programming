@@ -6,7 +6,7 @@
 
 /* betty style doc for function main goes there */
 /**
- * Description: prints the sign of numbers
+ * Description: main - The size of different types.
  * Return: 0 if success
 */
 
