@@ -1,11 +1,12 @@
 #include <stdio.h>
 
 /**
- * Description: main - print the alphabet.
+ * Description: main - print sequences of numbers.
  * Return: 0 if success
 */
 
 int main(void) {
+
 	int c = '0';
 
 	int d = '0';
