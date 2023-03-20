@@ -14,7 +14,7 @@ int main(void) {
 	{
 		while (d <= '9')
 		{
-			if ((c < d) || c == d)
+			if ((c < d) && c != d)
 			{
 				putchar(c);
 				putchar(d);
