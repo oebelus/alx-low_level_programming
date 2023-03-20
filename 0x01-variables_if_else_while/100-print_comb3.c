@@ -20,12 +20,12 @@ int main(void) {
 				putchar(d);
 				if (c == '8' && d == '9')
 				{
-					putchar("\n");
+					putchar('\n');
 				}
 				else
 				{
-					putchar(",");
-					putchar(" ");
+					putchar(',');
+					putchar(' ');
 				}
 			}
 			d++;
