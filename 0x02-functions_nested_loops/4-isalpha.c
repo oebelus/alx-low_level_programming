@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * _islower - if lowercase.
+ * _isalpha - if lowercase.
  * @c: is an integer.
  * Return: 1 if success 0 if failure.
 */
