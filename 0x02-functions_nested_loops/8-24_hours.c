@@ -3,7 +3,6 @@
 
 /**
  * jack_bauer - if lowercase.
- * @n: is an integer.
  * Return: 1 if success 0 if failure.
 */
 
