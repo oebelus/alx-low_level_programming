@@ -2,8 +2,7 @@
 #include "main.h"
 
 /**
- * time_tables - if lowercase.
- * @n: is an integer.
+ * time_table - if lowercase.
  * Return: 1 if success 0 if failure.
 */
 
