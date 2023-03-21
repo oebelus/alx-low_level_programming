@@ -5,12 +5,6 @@
  * Return: 0 if success
 */
 
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
-
 int print_alphabet(void)
 {
 	int c;
@@ -19,5 +13,11 @@ int print_alphabet(void)
 		putchar(c);
 	}
 	putchar('\n');
+	return (0);
+}
+
+int main(void)
+{
+	print_alphabet();
 	return (0);
 }
