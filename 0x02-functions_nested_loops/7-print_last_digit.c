@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * print_last_digit - if lowercase.
@@ -8,5 +9,7 @@
 
 int print_last_digit(int n)
 {
-	return(n % 10);
+	int b = n % 10;
+
+	_putchar(b);
 }
