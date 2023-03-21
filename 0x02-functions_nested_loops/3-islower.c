@@ -2,7 +2,7 @@
 
 /**
  * Description: _islower - if lowercase.
- * c: int.
+ * Description: c - int.
  * Return: 1 if success 0 if failure.
 */
 
