@@ -5,7 +5,7 @@
  * Return: 0 if success
 */
 
-int print_alphabet(void)
+void print_alphabet(void)
 {
 	int c;
 	for (c = 'a'; c <= 'z'; c++)
