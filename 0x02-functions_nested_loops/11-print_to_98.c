@@ -1,12 +1,12 @@
+#include "holberton.h"
 #include <stdio.h>
-#include "main.h"
 
 /**
- * add - if lowercase.
- * @n: a number
- * Return: 1 if success 0 if failure.
-*/
-
+  * print_to_98 - Prints all natural numbers from n to 98
+  * @n: The number to start printing from
+  *
+  * Return: Always 0.
+  */
 void print_to_98(int n)
 {
 	if (n <= 98)
@@ -21,12 +21,12 @@ void print_to_98(int n)
 			}
 			else
 			{
-				printf("%d", n);
+				printf("%d, ", n);
 			}
 		}
 	}
 	else
-		{
+	{
 		for (; n >= 98; n--)
 		{
 			if (n == 98)
@@ -37,7 +37,7 @@ void print_to_98(int n)
 			}
 			else
 			{
-				printf("%d", n);
+				printf("%d, ", n);
 			}
 		}
 	}
