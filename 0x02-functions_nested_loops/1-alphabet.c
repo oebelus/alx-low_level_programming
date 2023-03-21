@@ -5,6 +5,8 @@
  * Return: 0 if success
 */
 
+void print_alphabet(void);
+
 int print_alphabet(void)
 {
 	int c;
