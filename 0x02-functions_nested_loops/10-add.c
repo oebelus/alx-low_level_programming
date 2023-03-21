@@ -3,8 +3,8 @@
 
 /**
  * add - if lowercase.
- * @x a number
- * @y a number
+ * @x: a number
+ * @y: a number
  * Return: 1 if success 0 if failure.
 */
 
