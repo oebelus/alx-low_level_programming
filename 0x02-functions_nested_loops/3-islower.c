@@ -2,6 +2,8 @@
 
 /**
  * Description: _islower - if lowercase.
+ * c: int.
+ * Return: 1 if success 0 if failure.
 */
 
 int _islower(int c)
