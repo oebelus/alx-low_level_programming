@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * time_table - if lowercase.
+ * times_table - if lowercase.
  * Return: 1 if success 0 if failure.
 */
 
