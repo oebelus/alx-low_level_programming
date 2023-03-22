@@ -7,9 +7,8 @@
  * Return: 0 if success
 */
 
-int positive_or_negative(int n)
+void positive_or_negative(int n)
 {
-	/* your code goes there */
 	if (n < 0)
 	{
 		printf("%d is negative\n", n);
