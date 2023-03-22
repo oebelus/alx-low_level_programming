@@ -3,7 +3,8 @@
 #include <stdio.h>
 
 /**
- * Description: main - The size of different types.
+ * Description: positive_or_negative - The size of different types.
+ * @n: an integer.
  * Return: 0 if success
 */
 
