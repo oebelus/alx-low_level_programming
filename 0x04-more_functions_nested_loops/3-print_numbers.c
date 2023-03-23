@@ -1,10 +1,7 @@
 #include "main.h"
 
 /**
- * mul - multiplication
- * @a: an integer
- * @b: another integer
- * Return: the multiplication
+ * print_numbers - multiplication
  */
 
 void print_numbers(void)
@@ -15,5 +12,5 @@ void print_numbers(void)
 	{
 		_putchar(i);
 	}
-	putchar('\n');
+	_putchar('\n');
 }
