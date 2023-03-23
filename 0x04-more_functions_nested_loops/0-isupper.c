@@ -6,9 +6,9 @@
  * Return: 1 if yes 0 if no.
  */
 
-int _isupper(int c);
+int _isupper(int c)
 {
-	if (c <= 'Z' && c >= 'A')
+	if (c <= 90 && c >= 65)
 	{
 		return (1);
 	}
