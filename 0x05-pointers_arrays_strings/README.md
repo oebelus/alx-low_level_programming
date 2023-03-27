@@ -19,3 +19,7 @@ Write a function that returns the length of a string. <br>
 [_puts](0x05-pointers_arrays_strings/3-puts.c)<br>
 Write a function that prints a string, followed by a new line, to stdout.<br>
  - To use the `puts` function, you should include the `stdio.h` library at the beginning of your code 
+
+### 4. I can only go one way. I've not got a reverse gear 
+[print_rev](0x05-pointers_arrays_strings/4-print_rev)<br>
+Write a function that prints a string, in reverse, followed by a new line.
