@@ -26,4 +26,9 @@ Write a function that prints a string, in reverse, followed by a new line.
 
 ### 5. A good engineer thinks in reverse and asks himself about the stylistic consequences of the components and systems he proposes 
 [rev_string](0x05-pointers_arrays_strings/5-rev_string.c)<br>
-Write a function that reverses a string. 
+Write a function that reverses a string. <br> <br>
+The reason for iterating only over the first half of the string (up to len/2) is that after that point, all the characters in the string will have been swapped.<br>
+
+When reversing a string, you need to swap the first character with the last character, the second character with the second-to-last character, and so on, until you reach the middle of the string.<br>
+
+If you continue the loop beyond the middle of the string, you would just be swapping the characters back to their original positions, undoing the work that you did earlier in the loop.
