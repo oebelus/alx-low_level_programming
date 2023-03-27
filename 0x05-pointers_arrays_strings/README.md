@@ -13,5 +13,9 @@ Write a function that swaps the values of two integers.
 ### 2. This report, by its very length, defends itself against the risk of being read
 [_strlen](0x05-pointers_arrays_strings/2-strlen.c)<br>
 Write a function that returns the length of a string. <br>
-NB: to use the `strlen` function, you should include the `string.h` library at the beginning of your code 
+ - To use the `strlen` function, you should include the `string.h` library at the beginning of your code 
 
+### 3. I do not fear computers. I fear the lack of them 
+[_puts](0x05-pointers_arrays_strings/3-puts.c)<br>
+Write a function that prints a string, followed by a new line, to stdout.<br>
+ - To use the `puts` function, you should include the `stdio.h` library at the beginning of your code 
