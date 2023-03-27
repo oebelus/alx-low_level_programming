@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * print_rev - the length of a string
+ * rev_string - reversing a string
  * @s: a string
  */
 
@@ -13,7 +13,7 @@ void rev_string(char *s)
 	int i;
 	char tmp;
 
-	for (i = 0; i < len/2; i++)
+	for (i = 0; i < len / 2; i++)
 	{
 		tmp = s[i];
 		s[i] = s[len - 1 - i];
