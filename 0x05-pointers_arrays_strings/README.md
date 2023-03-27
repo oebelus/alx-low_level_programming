@@ -26,3 +26,6 @@ The reason for iterating only over the first half of the string (up to len/2) is
 When reversing a string, you need to swap the first character with the last character, the second character with the second-to-last character, and so on, until you reach the middle of the string.<br>
 
 If you continue the loop beyond the middle of the string, you would just be swapping the characters back to their original positions, undoing the work that you did earlier in the loop.
+
+###  6. Half the lies they tell about me aren't true 
+Write a function that prints every other character of a string, starting with the first character, followed by a new line : [puts2](0x05-pointers_arrays_strings/6.puts2.c)
