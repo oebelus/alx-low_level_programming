@@ -5,10 +5,11 @@
 /**
  * _strlen - the length of a string
  * @s: a string
+ * Return: the length if success
  */
 
 int _strlen(char *s)
 {
 	int x = strlen(s);
-	return x;
+	return (x);
 }
