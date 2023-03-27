@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * puts2 - print every character of a string
+ * puts_half - print every character of a string
  * @str: a string
  * Return: the length if success
  */
