@@ -9,3 +9,7 @@ Write a function that takes a pointer to an int as parameter and updates the val
 ### 1. Don't swap horses in crossing a stream 
 Write a function that swaps the values of two integers. <br>
 [swap_int](0x05-pointers_arrays_strings/1-swap.c)
+
+### 2. This report, by its very length, defends itself against the risk of being read
+Write a function that returns the length of a string. <br>
+[_strlen](0x05-pointers_arrays_strings/2-strlen.c)

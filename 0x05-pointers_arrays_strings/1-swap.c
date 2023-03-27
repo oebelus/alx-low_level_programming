@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- * swap_int - swap 2 pointers
- * @a: pointer
- * @b: pointer
+ * swap_int - swap 2 integer
+ * @a: integer
+ * @b: integer
  */
 
 void swap_int(int *a, int *b)
