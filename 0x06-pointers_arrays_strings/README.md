@@ -14,3 +14,6 @@ Write a function that concatenates two strings: [_strncat](0x06-pointers_arrays_
 	- it will use at most n bytes from src; and
 	- src does not need to be null-terminated if it contains n or more bytes
 	- Return a pointer to the resulting string dest
+
+### 3. strncpy
+Write a function that copies a string: [_strncpy](0x06-pointers_arrays_strings/2-strncpy.c) <br>
