@@ -3,15 +3,25 @@
 #include "main.h"
 
 /**
- * _strcmp - comparing strings
- * @s1: a string
- * @s2: a string
+ * reverse_array - reverse an array of integers
+ * @a: an integer
+ * @n: an integer
  * Return: result
  */
 
-int _strcmp(char *s1, char *s2)
+void reverse_array(int *a, int n)
 {
-	int result = strcmp(s1, s2);
+	int size = sizeof(a) / sizeof(a[0]);
+	int i;
 
-	return (result);
+	for (i = size - 1; i >= 0; i--) {
+		if (a[i] != a[0])
+		{
+			printf("%d, ", a[i]);
+		}
+		else
+		{
+			printf("%d", a[i]);
+		}
+	}
 }

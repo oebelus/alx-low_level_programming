@@ -20,3 +20,6 @@ Write a function that copies a string: [_strncpy](0x06-pointers_arrays_strings/2
 
 ### 3.strcmp
 Write a function that compares two strings: [_strcmp](0x06-pointers_arrays_strings/3-strcmp.c) <br> 
+
+### 4.  4. I am a kind of paranoid in reverse. I suspect people of plotting to make me happy 
+Write a function that reverses the content of an array of integers: [_reverse_array](0x06-pointers_arrays_strings/4-rev_array.c) <br> 
