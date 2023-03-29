@@ -3,10 +3,10 @@
 #include "main.h"
 
 /**
- * _strcmp - concatenating strings
+ * _strcmp - comparing strings
  * @s1: a string
  * @s2: a string
- * Return: s1
+ * Return: result
  */
 
 int _strcmp(char *s1, char *s2)
