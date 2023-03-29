@@ -5,7 +5,6 @@
 /**
  * reverse_array - reverse an array of integers
  * @a: an array
-
  * @n: an integer
  */
 
@@ -24,4 +23,5 @@ void reverse_array(int *a, int n)
 		begin++;
 		end--;
 	}
+	return (a);
 }
