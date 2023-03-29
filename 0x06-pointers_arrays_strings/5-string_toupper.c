@@ -5,6 +5,7 @@
 /**
  * string_toupper - to upper case
  * @s: pointer to an array
+ * Return: s
  */
 
 char *string_toupper(char *s)
