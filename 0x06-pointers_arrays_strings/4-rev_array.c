@@ -4,24 +4,23 @@
 
 /**
  * reverse_array - reverse an array of integers
- * @a: an integer
+ * @a: an array
  * @n: an integer
- * Return: 0
  */
 
 void reverse_array(int *a, int n)
 {
-	int i;
+	int swap, begin, end;
 
-	for (i = n - 1; i >= 0; i--) {
-		if (a[i] != a[0])
-		{
-			printf("%d, ", a[i]);
-		}
-		else
-		{
-			printf("%d", a[i]);
-		}
+	begin = 0;
+	end = n - 1;
+
+	while (begin < end)
+	{
+		swap = *(a + begin);
+		*(a + begin) = *(a + end)
+		*(a + end) = swap;
+		begin++;
+		end--;
 	}
-	return (0);
 }
