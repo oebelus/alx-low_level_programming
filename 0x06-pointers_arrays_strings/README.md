@@ -26,3 +26,6 @@ Write a function that reverses the content of an array of integers: [_reverse_ar
 
 ### 5. Always look up
 Write a function that changes all lowercase letters of a string to uppercase: [_string_toupper](0x06-pointers_arrays_strings/5-string_toupper.c) <br>
+
+### 6. 6. Expect the best. Prepare for the worst. Capitalize on what comes 
+Write a function that capitalizes all words of a string: [cap_string](0x06-pointers_arrays_strings/6-cap_string.c) <br>
