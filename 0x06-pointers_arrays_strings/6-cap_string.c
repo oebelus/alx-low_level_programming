@@ -9,30 +9,27 @@ include main.h
 
 char *cap_string(char *s)
 {
-	int i, j;
-	int a[] = {32, 9, 10, 44, 59, 46, 33, 63, 34, 40, 41, 123, 125};
+	int string_count; 
 
-	i = 0;
-	while (*(s + i) != '\0')
+	string_count = 0;
+	while (s[string_count] != '\0')
 	{
-		if (*(s + i) >= 'a' && *(s + i) <= 'z')
+	if (s[0] >= 97 && s[0] <= 122)
+	{
+		s[0] = s[0] - 32;
+	}
+	if (s[string_count] == ' ' || s[string_count] == '\t' || s[string_count] == '\n'
+	|| s[string_count] == ',' || string_count == ';' || string_count == '.'
+	 || string_count == '!' || string_count == '?' || string_count == '"'
+	 || string_count == '(' || string_count == ')' || string_count == '{'
+	 || string_count == '}')
+	{
+		if (s[string_count + 1] >= 97 && s[string_count + 1] <= 122)
 		{
-			if (i == 0)
-			{
-				*(s + i) = *(s + i) - 32;
-			}
-			else
-			{
-				for (j = 0; j <= 12; j++)
-				{
-					if (a[j] == *(s + i - 1))
-					{
-						*(s + i) = *(s + i) - 32;
-					}
-				}
-			}
+			s[string_count + 1] = s[string_count + 1] - 32;
 		}
-	i++;
+	}
+		string_count++;
 	}
 	return (s);
 }
