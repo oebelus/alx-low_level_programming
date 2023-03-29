@@ -6,7 +6,7 @@
  * reverse_array - reverse an array of integers
  * @a: an integer
  * @n: an integer
- * Return: result
+ * Return: 0
  */
 
 void reverse_array(int *a, int n)
@@ -24,4 +24,5 @@ void reverse_array(int *a, int n)
 			printf("%d", a[i]);
 		}
 	}
+	return (0);
 }
