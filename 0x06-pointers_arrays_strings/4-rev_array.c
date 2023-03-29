@@ -4,8 +4,8 @@
 
 /**
  * reverse_array - reverse an array of integers
- * @a: an array
- * @n: an integer
+ * @a: pointer to an array
+ * @n: number of elements in a
  */
 
 void reverse_array(int *a, int n)
@@ -15,13 +15,12 @@ void reverse_array(int *a, int n)
 	begin = 0;
 	end = n - 1;
 
-	while (begin < end)
+	while (begin <= end)
 	{
-		swap = *(a + begin);
-		*(a + begin) = *(a + end)
-		*(a + end) = swap;
+		swap = a[begin];
+		a[begin] = a[end];
+		a[end] = swap;
 		begin++;
 		end--;
 	}
-	return (a);
 }
