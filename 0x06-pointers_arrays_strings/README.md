@@ -15,5 +15,8 @@ Write a function that concatenates two strings: [_strncat](0x06-pointers_arrays_
 	- src does not need to be null-terminated if it contains n or more bytes
 	- Return a pointer to the resulting string dest
 
-### 3. strncpy
+### 2. strncpy
 Write a function that copies a string: [_strncpy](0x06-pointers_arrays_strings/2-strncpy.c) <br>
+
+### 3.strcmp
+Write a function that compares two strings: [_strcmp](0x06-pointers_arrays_strings/3-strcmp.c) <br> 
