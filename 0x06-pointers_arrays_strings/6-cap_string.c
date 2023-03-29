@@ -6,6 +6,7 @@ include main.h
  *
  * Return: String with all words capitalized.
  */
+
 char *cap_string(char *s)
 {
 	int i, j;
