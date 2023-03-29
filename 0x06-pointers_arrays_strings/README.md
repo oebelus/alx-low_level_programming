@@ -18,8 +18,11 @@ Write a function that concatenates two strings: [_strncat](0x06-pointers_arrays_
 ### 2. strncpy
 Write a function that copies a string: [_strncpy](0x06-pointers_arrays_strings/2-strncpy.c) <br>
 
-### 3.strcmp
+### 3. strcmp
 Write a function that compares two strings: [_strcmp](0x06-pointers_arrays_strings/3-strcmp.c) <br> 
 
-### 4.  4. I am a kind of paranoid in reverse. I suspect people of plotting to make me happy 
+### 4. I am a kind of paranoid in reverse. I suspect people of plotting to make me happy 
 Write a function that reverses the content of an array of integers: [_reverse_array](0x06-pointers_arrays_strings/4-rev_array.c) <br> 
+
+### 5. Always look up
+Write a function that changes all lowercase letters of a string to uppercase: [_string_toupper](0x06-pointers_arrays_strings/5-string_toupper.c) <br>
