@@ -9,20 +9,22 @@
  */
 
 void *rot13(char *str)
-	{
-	int length = strlen(str);
-	int j;
+{
+	int i, j;
+	char *result = str;
+	char *alphabet = 	"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char *rot13_alphabet = 	"NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
-	for (j = 0; j <= strlen(str); j++)
+	for (i = 0; str[i] != '\0'; i++)
 	{
-		if (str[j] >= 'A' && str[j] <= 'Z')
+		for (j = 0; alphabet[j] != '\0'; j++)
 		{
-			str[j] = ((str[j] - 'A') + 13) % 26 + 'A';
-		}
-		else if (str[j] >= 'a' && str[j] <= 'z')
-		{
-			str[j] = ((str[j] - 'a') + 13) % 26 + 'a';
+			if (str[i] == alphabet[j])
+			{
+				result[i] = rot13_alphabet[j];
+				break;
+			}
 		}
 	}
-	return (str);
+	return (result);
 }
