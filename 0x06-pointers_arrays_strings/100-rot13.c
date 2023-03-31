@@ -3,10 +3,9 @@
 #include "main.h"
 
 /**
- * _strcat - concatenating strings
- * @dest: a string
- * @src: a string
- * Return: dest
+ * rot13 - rot13
+ * @str: a string
+ * Return: str
  */
 
 void rot13(char *str)
