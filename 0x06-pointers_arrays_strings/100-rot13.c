@@ -8,7 +8,7 @@
  * Return: str
  */
 
-void *rot13(char *str)
+char *rot13(char *str)
 {
 	int index, count;
 	int len = strlen(str);
