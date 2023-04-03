@@ -3,9 +3,9 @@
 /**
  * _strspn - the length of a prefix substring
  * @s: segment to return bytes from
- * @c: the bytes to include
+ * @accept: the bytes to include
  *
- * Return: s if true, null if false.
+ * Return: bytes.
  */
 
 unsigned int _strspn(char *s, char *accept)
