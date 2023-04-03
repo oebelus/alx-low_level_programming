@@ -4,14 +4,13 @@
  * _strchr - locates a character
  * @s: where to put copied buffer
  * @c: source to copy from
- * @n: memory area
  *
- * Return: NULL.
+ * Return: s if true, null if false.
  */
 
 char *_strchr(char *s, char c)
 {
-	int i; 
+	int i;
 
 	for (i = 0; s[i] >= '\0'; i++)
 	{
