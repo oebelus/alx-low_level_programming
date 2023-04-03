@@ -7,7 +7,7 @@
  * @s: the string
  * @c: the character to find
  *
- * Return: NULL.
+ * Return: s if yes, NULL if no.
  */
 
 char *_strchr(char *s, char c)
