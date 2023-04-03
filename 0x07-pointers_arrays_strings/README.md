@@ -12,3 +12,4 @@ Write a function that copies memory area: [*_memcpy](0x07-pointers_arrays_string
 
 ### 2- strchr
 Write a function that locates a character in a string: [*_strchr](0x07-pointers_arrays_strings/2-strchr.c)
+	- Returns a pointer to the first occurrence of the character c in the string s, or NULL if the character is not found
