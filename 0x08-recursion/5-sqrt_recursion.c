@@ -41,6 +41,9 @@ c
 
 int _sqrt_recursion(int n)
 {
+	int mid = n / 2;
+	int result = _sqrt_recursion(mid);
+
 	if (n < 0)
 	{
 		return -1;
@@ -49,9 +52,6 @@ int _sqrt_recursion(int n)
 	{
 		return n;
 	}
-	int mid = n / 2;
-	int result = _sqrt_recursion(mid);
-
  	if (result == -1)
 	{
 		return -1;
