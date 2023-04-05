@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * _strlen_recursion - prints the length of a string
+ * factorial - prints the length of a string
  *
- * @s: the string
+ * @n: the integer
  * Return: return
  */
 
@@ -20,6 +20,6 @@ int factorial(int n)
 	}
 	else
 	{
-		return n * factorial(n - 1);
+		return (n * factorial(n - 1));
 	}
 }
