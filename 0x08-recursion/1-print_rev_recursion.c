@@ -17,7 +17,7 @@ void _print_rev_recursion(char *s)
 	}
 	else
 	{
-		_print_rev_recursion(s + S1);
+		_print_rev_recursion(s + 1);
 		printf("%c", *s);
 	}
 }
