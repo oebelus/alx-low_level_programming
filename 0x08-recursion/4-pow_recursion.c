@@ -1,0 +1,22 @@
+#include "main.h"
+#include <stdio.h>
+
+/**
+ * _pow_recursion - prints the length of a string
+ *
+ * @x: the integer
+ * @y: the power
+ * Return: return
+ */
+
+int _pow_recursion(int x, int y)
+{
+	if (y < 0)
+	{
+		return (-1);
+	}
+	else
+	{
+		return (x ** y);
+	}
+}
