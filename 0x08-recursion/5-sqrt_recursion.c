@@ -10,8 +10,8 @@
 
 int _sqrt_recursion(int n)
 {
-	int mid = (start + end) / 2;
 	int start = 1, end = n, ans = 0;
+	int mid = (start + end) / 2;
 
 	if (n < 0)
 	{
