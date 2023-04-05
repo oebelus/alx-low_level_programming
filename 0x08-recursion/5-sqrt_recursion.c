@@ -22,7 +22,7 @@ int _sqrt_recursion(int n)
 		return n;
 	}
 
-	while (start <= end)
+	if (start <= end)
 	{
 		if (mid * mid == n)
 		{
