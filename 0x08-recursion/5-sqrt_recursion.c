@@ -1,46 +1,30 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * _sqrt_recursion - square root
+ * check - checks for the square root
+ * @a:int
+ * @b:int
  *
- * @n: the integer
- * Return: return
+ * Return: int
  */
+int check(int a, int b)
+{
+	if (a * a == b)
+		return (a);
+	if (a * a > b)
+		return (-1);
+	return (check(a + 1, b));
+}
 
+/**
+ * _sqrt_recursion - returns the natural square root of a number
+ * @n: integer to find sqrt of
+ * Return: natural square root or -1
+ */
 int _sqrt_recursion(int n)
 {
-	if (n < 0)
-	{
-		return -1;
-	}
-	else if (n == 0 || n == 1)
-	{
-		return n;
-	}
-	else
-	{
-		int mid = n / 2;
-		int result = _sqrt_recursion(mid);
-		if (result == -1)
-		{
-			return -1;
-		}
-		else if (result * result == n)
-		{
-			return result;
-		}
-		else if (result * result < n && (result + 1) * (result + 1) > n)
-		{
-			return result;
-		}
-		else if (result * result > n)
-		{
-			return _sqrt_recursion(mid);
-		}
-		else
-		{
-			return _sqrt_recursion(n - mid);
-		}
-	}
+	if (n == 0)
+		return (0);
+	return (check(1, n));
 }
+
