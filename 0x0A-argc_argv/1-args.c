@@ -1,0 +1,15 @@
+#include "main.h"
+
+/**
+ * main - prints the name of the program
+ * @argc: number of command line argume,ts
+ * @argv: arrray name
+ * Return: 0 if success
+ */
+
+int main(int argc, char *argv[])
+{
+	(void) argv;
+	printf("%d\n", argc);
+	return (0);
+}
