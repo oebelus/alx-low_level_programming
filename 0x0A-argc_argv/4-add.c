@@ -10,7 +10,7 @@
  * Return: 1 if valid int, 0 otherwise
  */
 
-int check_num(char*str)
+int check_num(char *str)
 {
 	unsigned int count;
 
