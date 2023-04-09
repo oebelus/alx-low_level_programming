@@ -5,9 +5,9 @@
 #include <string.h>
 
 /**
- * check_num - check number
+ * check_num - check if a string represents a valid integer
  * @str: string to check
- * Return: 0 if success
+ * Return: 1 if valid int, 0 otherwise
  */
 
 int check_num(char*str)
@@ -23,7 +23,7 @@ int check_num(char*str)
 		}
 		count++;
 	}
-	return (0);
+	return (1);
 }
 
 /**
@@ -39,7 +39,7 @@ int main(int argc, char *argv[])
 	int str_to_int;
 	int sum = 0;
 
-	count = 1
+	count = 1;
 	while (count < argc)
 	{
 		if (check_num(argv[count])
