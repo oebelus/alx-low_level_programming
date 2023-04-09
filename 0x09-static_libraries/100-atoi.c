@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * _atoi - string to int
@@ -8,5 +9,7 @@
 
 int _atoi(char *s)
 {
-	return (s);
+	puts(s);
+	return (0);
 }
+
