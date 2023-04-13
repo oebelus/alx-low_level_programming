@@ -4,7 +4,7 @@
 /**
  * malloc_checked - allocates memory
  * @b: the memory space
- * Return
+ * Return: 98 if error; ptr if success
  */
 
 void *malloc_checked(unsigned int b)
