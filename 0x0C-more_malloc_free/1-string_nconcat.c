@@ -1,36 +1,52 @@
-#include "main.h"
+#include "holberton.h"
 #include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
 
 /**
- * string_nconcat - cancatenating 2 strings
- * @s1: string 1
- * @s2: string 2
- * @n: length of s2
- * Return: 98 if error; result if success
- */
-
+  * string_nconcat - ...
+  * @s1: ...
+  * @s2: ...
+  * @n: ...
+  *
+  * Return: ...
+  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	size_t s1_len;
-	size_t s2_len;
+	unsigned int i = 0, j = 0, k = 0, l = 0;
+	char *str;
 
-	s1_len = strlen(s1);
-	s2_len = strlen(s2);
+	if (s1 == NULL)
+		s1 = "";
+	if (s2 == NULL)
+		s2 = "";
 
-	if (n < s2_len)
+	while (s1[i])
+		i++;
+
+	while (s2[k])
+		k++;
+
+	if (n >= k)
+		l = i + k;
+	else
+		l = i + n;
+
+	str = malloc(sizeof(char) * l + 1);
+	if (str == NULL)
+		return (NULL);
+
+	k = 0;
+	while (j < l)
 	{
-		s2_len = n;
-	}
-	char *result = malloc(s1_len + s2_len + 1);
+		if (j <= i)
+			str[j] = s1[j];
 
-	if (result == NULL)
-	{
-		exit(98);
+		if (j >= i)
+		{
+			str[j] = s2[k];
+			k++;
+		}
+		j++;
 	}
-	strcpy(result, s1);
-	strncat(result, s2, s2_len);
-
-	return (result);
+	str[j] = '\0';
+	return (str);
 }
