@@ -11,17 +11,20 @@
 
 size_t print_list(const list_t *h)
 {
-	const list_t *current = head; // pointer to the head
+	const list_t *current = h; // pointer to the head
+	size_t count = 0;
+
 	while (current != NULL)
 	{
-		if (current->str != NULL)
+		if (current->str == NULL)
 		{
 			printf("[0] (nil)\n");
 		}
 		else
 		{
-			printf("%s\n", current->str);
-		}
+			printf("[%d] %s\n", current->len, current->str);
+		count += 1;
 		current = current->next
+		}
 	}
 }
