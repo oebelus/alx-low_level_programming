@@ -23,6 +23,10 @@ unsigned int binary_to_uint(const char *b)
 		{
 			decimal += two;
 		}
+		else if (b[i] != '1' && b[i] != '0')
+		{
+			return (0);
+		}
 		two *= 2;
 	}
 	return (decimal);
