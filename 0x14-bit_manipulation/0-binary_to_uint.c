@@ -11,12 +11,15 @@ unsigned int binary_to_uint(const char *b)
 	int i;
 	unsigned int decimal = 0;
 	int two = 1;
-	int len = strlen(b);
+	int len;
 
 	if (!b)
 	{
 		return (0);
 	}
+
+	int len = strlen(b);
+
 	for (i = len - 1; i >= 0; i--)
 	{
 		if (b[i] == '1')
