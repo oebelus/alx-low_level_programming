@@ -1,8 +1,8 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- * binary_to_uint - binary to decimal
- * @b: pointer to the character
+ * print_binary - decimal to binary
+ * @n: pointer to integer
  */
 
 void print_binary(unsigned long int n)
@@ -11,10 +11,10 @@ void print_binary(unsigned long int n)
 	{
 		if (n > 1)
 			print_binary(n >> 1);
-		_putchar((n & 1) + '0');
+		putchar((n & 1) + '0');
 
 	else
 	{
-		_putchar('0');
+		putchar('0');
 	}
 }
