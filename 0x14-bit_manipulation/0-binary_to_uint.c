@@ -10,7 +10,7 @@ unsigned int binary_to_uint(const char *b)
 {
 	int i;
 	unsigned int decimal = 0;
-	int two = 1;
+	unsigned int two = 1;
 	int len = strlen(b);
 
 	if (!b)
