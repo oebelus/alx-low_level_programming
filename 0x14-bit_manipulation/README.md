@@ -42,7 +42,7 @@ Write a function that sets the value of a bit to 0 at a given index: [4. 100](4-
   - Returns: 1 if it worked, or -1 if an error occurred
 <br><br>
 ### 5. 101
-Write a function that returns the number of bits you would need to flip to get from one number to another: [5. 101](4-flip_bits.c)
+Write a function that returns the number of bits you would need to flip to get from one number to another: [5. 101](5-flip_bits.c)
 
   - Prototype: unsigned int flip_bits(unsigned long int n, unsigned long int m);
   - You are not allowed to use the % or / operators
