@@ -12,7 +12,7 @@ int create_file(const char *filename, const char *text_content)
 {
 	if (filename && text_content)
 	{
-		FILE *file = fopen(filename, "w");
+		FILE *file = fopen(filename, "w+");
 		if (file)
 		{
 			fprintf(file, "%s", text_content);
