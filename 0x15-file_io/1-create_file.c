@@ -16,7 +16,6 @@ int create_file(const char *filename, const char *text_content)
 		if (file)
 		{
 			fprintf(file, "%s", text_content);
-			fclose(file);
 			return (1);
 		}
 	}
