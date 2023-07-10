@@ -2,9 +2,10 @@
 #include <stdlib.h>
 
 /**
- * binary_to_uint - binary to decimal
- * @b: pointer to the character
- * Return: 0 if b is NULL, or b is not 0 nor 1
+ * create_file - create a file and add content
+ * @filename: name of the file
+ * @text_content: content of the file
+ * Return: 0 if filename is NULL, 1 if success
  */
 
 int create_file(const char *filename, const char *text_content)
@@ -15,6 +16,7 @@ int create_file(const char *filename, const char *text_content)
 		if (file)
 		{
 			fprintf(file, "%s", text_content);
+			fclose(file);
 			return (1);
 		}
 	}
