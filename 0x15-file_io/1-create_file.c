@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <stdlib.h>
+
 /**
  * binary_to_uint - binary to decimal
  * @b: pointer to the character
