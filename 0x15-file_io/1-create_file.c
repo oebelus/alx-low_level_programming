@@ -10,7 +10,7 @@
 
 int create_file(const char *filename, const char *text_content)
 {
-	if (filename)
+	if (filename && text_content)
 	{
 		FILE *file = fopen(filename, "w");
 		if (file)
